@@ -27,6 +27,7 @@ dependencies {
     compile 'org.blockchain-innovation.factom.client:factom-client-impl:0.2.2-SNAPSHOT'
     compile 'org.blockchain-innovation.factom.client:json-converter-gson:0.2.2-SNAPSHOT'
     compile 'org.blockchain-innovation.factom.client:logger-slf4j:0.2.2-SNAPSHOT'
+    compile "org.slf4j:slf4j-simple:1.7.25"
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
